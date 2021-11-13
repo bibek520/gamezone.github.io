@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website page</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <div class="container">
+       <div class="navbar">
+           <img src="images/logo.png" class="logo">
+          <nav>
+             <ul id="menuList">
+               <li><a href="">Game Controller</a></li>
+               <li><a href="">VR Accesories</a></li>
+               <li><a href="">Media remotes</a></li>
+               <li><a href="">Others</a></li>
+               </ul>
+       </nav>
+      <img src="images/listbtn.png" class="menu-icon" onclick="togglemenu()">
+      </div>
+          <div class="row">
+                <div class="col-1">
+                  <h2>PS4 v2 <br>Dualshock 4</h2>
+                   <h3>wireless controller for playstation 4</h3>
+                    <p>(compatible/generic)</p>
+                     <h4>$34.50</h4>
+                     <button type="button">Buy now<img src=""></button>
+                   </div>   
+                 <div class="col-2">
+                     <img src="images/controller.png.png" class="controller">
+                     <div class="color-box">
+                       </div>
+                                                             
+                     <div class="add-btn">
+                         <img src="images/addbtn.png">
+                         <p><small>Add to cart</small></p>   </div>
+
+                     </div>
+                        </div>
+                        <div class="social-links">
+                            <img src="https://png.pngtree.com/png-clipart/20180515/ourmid/pngtree-facebook-logo-facebook-icon-png-image_3566127.png" >
+                            <img src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" >
+                            <img src="https://www.creativefreedom.co.uk/wp-content/uploads/2017/06/Twitter-featured.png" >
+                        </div>
+            </div>
+    </div> 
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxheight="0px";
+        function togglemenu(){
+            if( menuList.style.maxHeight=="0px")
+                                 { menuList.style.maxHeight="130px";}
+           else{ 
+            menuList.style.maxHeight="0px";} 
+        }
+    </script>
+    
+
+</body>
+</html>
